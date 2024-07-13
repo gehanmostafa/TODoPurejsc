@@ -56,6 +56,7 @@ let localStorageGet = () => {
   }
 
 };
+if (localStorage.getItem("item") !== null){
+localStorageGet();}
 
-localStorageGet();
 ////////////////////
